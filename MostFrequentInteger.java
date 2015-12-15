@@ -51,13 +51,16 @@ public class MostFrequentInteger
         
         for(int i = 0; i <= results.size(); i++)
         {
-            current = results.get(i); //Get value to be compared.
-            
-            //If the value obtained is greater than current largest...
-            if(current > larger)
+            if(results.containsKey(i)) //Check if key exists.
             {
-                larger = current; //replace largest with new largest.
-                key = i; //The key will be the value of i.
+                current = results.get(i); //Get value to be compared.
+
+                //If the value obtained is greater than current largest...
+                if(current > larger)
+                {
+                    larger = current; //replace largest with new largest.
+                    key = i; //The key will be the value of i.
+                }
             }
         }
         
