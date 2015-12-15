@@ -49,7 +49,7 @@ public class MostFrequentInteger
         int current = 0; //This will hold the current value being compared.
         int key = 0; //This will hold the actual number
         
-        for(int i = 1; i <= results.size(); i++)
+        for(int i = 0; i <= results.size(); i++)
         {
             current = results.get(i); //Get value to be compared.
             
