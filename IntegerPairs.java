@@ -23,7 +23,7 @@ public class IntegerPairs
            for(int j = 0; j < array.length; j++)
            {
                secondPair = 10 - array[i]; //Perform algo calculation.
-               if(array[j] == secondPair) //Check if it's in the array.
+               if(array[j] == secondPair && j != i) //Check if it's in the array and not the same position.
                {
                    //Print pairs.
                    System.out.println("Pairs " + secondPair + " and " + array[i] + " equal 10.");
