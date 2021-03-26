@@ -12,9 +12,9 @@ public class Anagram
     /**
      * Checks if 2 words are anagrams. 
      * Using a hash table is faster than searching and
-     * comparing both words. The idea is though is that
-     * if both words contain the same amount of letters then it 
-     * will form an anagram. Assuming the words entered are actually
+     * comparing both words. The idea is that if both words 
+     * contain the same amount of letters then it will form 
+     * an anagram. Assuming the words entered are actually
      * words and not random letters grouped together.
      * 
      * @param a is word1 
