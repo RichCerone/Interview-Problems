@@ -33,14 +33,16 @@ public class Anagram
 
             for(int i = 0; i < b.length(); i++) //Compare word b with hash map.
             {
-                if(table.contains(b.charAt(i)) && i == b.length()-1)
+                if(table.contains(b.charAt(i)))
                 {
                     return true; //Is a anagram.
                 }
+                else
+                {
+                    return false; //Is not an anagram.
+                }
             }
         }
-        
-        return false; //Is not an anagram.
     }
     
     public static void main(String[] args)
