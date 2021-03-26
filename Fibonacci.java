@@ -14,12 +14,7 @@ public class Fibonacci
         if (num == 0)
         {
             return 0;   
-        }
-        
-        if (num == 1)
-        {
-            return 1;   
-        }
+        }       
         
        int a = 0; //Step 1 (n = 0)
        int b = 1; //Step 2 (n = 1)
