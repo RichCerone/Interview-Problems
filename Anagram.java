@@ -33,7 +33,7 @@ public class Anagram
 
             for(int i = 0; i < b.length(); i++) //Compare word b with hash map.
             {
-                if(table.contains(b.charAt(i)))
+                if(table.contains(b.charAt(i)) && i == b.length() - 1)
                 {
                     return true; //Is a anagram.
                 }
